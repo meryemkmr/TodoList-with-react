@@ -39,7 +39,7 @@ export class Product extends Component {
             return <li key ={index}>
                 <h4>{product.name}</h4>
                 <br />
-                {product.image ? <img src={product.image.url} height="150px" /> : null}
+                {product.image ? <img src={product.image.url} height="300px" /> : null}
                 <br />
                 {product.image ? <p>{product.image.label}</p> : null}
                 
